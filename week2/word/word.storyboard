@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="cW0-C4-kr7">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21679"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="s0d-6b-0kx">
+            <objects>
+                <viewController id="Y6W-OH-hqX" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="5EZ-qb-Rvc">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="vDu-zF-Fre"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Ief-a0-LHa" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="36" y="-27"/>
+        </scene>
+        <!--Word View Controller-->
+        <scene sceneID="zxA-zR-4xn">
+            <objects>
+                <viewController id="cW0-C4-kr7" customClass="wordViewController" customModule="week2" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="DpL-vE-KbA">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0wC-qg-UfR">
+                                <rect key="frame" x="20" y="152" width="69" height="35"/>
+                                <color key="backgroundColor" systemColor="opaqueSeparatorColor"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="뉴진스"/>
+                                <connections>
+                                    <action selector="wordButtonTapped:" destination="cW0-C4-kr7" eventType="touchUpInside" id="PXl-Oc-nbf"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="98Y-7V-asu">
+                                <rect key="frame" x="97" y="152" width="98" height="35"/>
+                                <color key="backgroundColor" red="0.99942404029999998" green="0.98555368190000003" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="알잘딱깔센"/>
+                                <connections>
+                                    <action selector="wordButtonTapped:" destination="cW0-C4-kr7" eventType="touchUpInside" id="7w9-NF-Adk"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZQb-yv-iTC">
+                                <rect key="frame" x="39" y="418" width="296" height="222"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" systemColor="systemOrangeColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Vyl-98-3uH">
+                                <rect key="frame" x="203" y="152" width="69" height="35"/>
+                                <color key="backgroundColor" red="0.66799789669999998" green="0.47512125970000002" blue="0.25860109930000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="별다줄"/>
+                                <connections>
+                                    <action selector="wordButtonTapped:" destination="cW0-C4-kr7" eventType="touchUpInside" id="chH-9z-iX7"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="3" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yW2-ea-RUO">
+                                <rect key="frame" x="280" y="152" width="69" height="35"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="오케이"/>
+                                <connections>
+                                    <action selector="wordButtonTapped:" destination="cW0-C4-kr7" eventType="touchUpInside" id="GnK-ey-m0P"/>
+                                </connections>
+                            </button>
+                            <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="9fp-KM-SFm">
+                                <rect key="frame" x="20" y="94" width="353" height="50"/>
+                                <color key="backgroundColor" systemColor="systemGray5Color"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="fJO-gv-sBf"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                                <connections>
+                                    <action selector="TextFieldOn:" destination="cW0-C4-kr7" eventType="editingDidEndOnExit" id="g0Z-8x-5WA"/>
+                                </connections>
+                            </textField>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="wKU-w9-RRT"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <gestureRecognizers/>
+                        <constraints>
+                            <constraint firstItem="yW2-ea-RUO" firstAttribute="top" secondItem="Vyl-98-3uH" secondAttribute="top" id="1ug-Go-dDW"/>
+                            <constraint firstItem="0wC-qg-UfR" firstAttribute="top" secondItem="9fp-KM-SFm" secondAttribute="bottom" constant="8" id="3U2-17-LxX"/>
+                            <constraint firstItem="98Y-7V-asu" firstAttribute="leading" secondItem="0wC-qg-UfR" secondAttribute="trailing" constant="8" id="4Pq-wq-LUb"/>
+                            <constraint firstItem="98Y-7V-asu" firstAttribute="leading" secondItem="0wC-qg-UfR" secondAttribute="trailing" constant="8" id="5CG-g1-A82"/>
+                            <constraint firstItem="9fp-KM-SFm" firstAttribute="top" secondItem="wKU-w9-RRT" secondAttribute="top" constant="35" id="6h3-o8-VhR"/>
+                            <constraint firstItem="Vyl-98-3uH" firstAttribute="top" secondItem="98Y-7V-asu" secondAttribute="top" id="IDV-jx-oS2"/>
+                            <constraint firstItem="0wC-qg-UfR" firstAttribute="leading" secondItem="9fp-KM-SFm" secondAttribute="leading" id="Mic-Qj-6aP"/>
+                            <constraint firstItem="9fp-KM-SFm" firstAttribute="leading" secondItem="wKU-w9-RRT" secondAttribute="leading" constant="20" id="OUN-fp-Z9g"/>
+                            <constraint firstItem="Vyl-98-3uH" firstAttribute="leading" secondItem="98Y-7V-asu" secondAttribute="trailing" constant="8" id="We2-Zc-2iI"/>
+                            <constraint firstItem="yW2-ea-RUO" firstAttribute="leading" secondItem="Vyl-98-3uH" secondAttribute="trailing" constant="8" id="WgZ-Ud-xnL"/>
+                            <constraint firstItem="wKU-w9-RRT" firstAttribute="trailing" secondItem="9fp-KM-SFm" secondAttribute="trailing" constant="20" id="dkg-8G-d7K"/>
+                            <constraint firstItem="98Y-7V-asu" firstAttribute="top" secondItem="0wC-qg-UfR" secondAttribute="top" id="wTc-4B-f1K"/>
+                        </constraints>
+                        <connections>
+                            <outletCollection property="gestureRecognizers" destination="oGN-Pp-VaE" appends="YES" id="Ghs-CS-OwZ"/>
+                        </connections>
+                    </view>
+                    <connections>
+                        <outlet property="resultLabel" destination="ZQb-yv-iTC" id="lNr-ws-th8"/>
+                        <outlet property="wordInput" destination="9fp-KM-SFm" id="Q22-Su-utl"/>
+                        <outletCollection property="wordButton" destination="0wC-qg-UfR" collectionClass="NSMutableArray" id="Gca-O4-oG8"/>
+                        <outletCollection property="wordButton" destination="98Y-7V-asu" collectionClass="NSMutableArray" id="RZU-NR-n7Y"/>
+                        <outletCollection property="wordButton" destination="Vyl-98-3uH" collectionClass="NSMutableArray" id="YPX-LR-jM8"/>
+                        <outletCollection property="wordButton" destination="yW2-ea-RUO" collectionClass="NSMutableArray" id="Ge5-Dj-cFq"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iHg-n2-oR5" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                <tapGestureRecognizer id="oGN-Pp-VaE">
+                    <connections>
+                        <action selector="Gesture:" destination="cW0-C4-kr7" id="dgd-Ts-0bu"/>
+                    </connections>
+                </tapGestureRecognizer>
+            </objects>
+            <point key="canvasLocation" x="1524" y="-28"/>
+        </scene>
+    </scenes>
+    <resources>
+        <systemColor name="opaqueSeparatorColor">
+            <color red="0.77647058823529413" green="0.77647058823529413" blue="0.78431372549019607" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemGray5Color">
+            <color red="0.89803921568627454" green="0.89803921568627454" blue="0.91764705882352937" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemOrangeColor">
+            <color red="1" green="0.58431372549019611" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>
