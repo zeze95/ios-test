@@ -19,7 +19,7 @@ class ViewController: UIViewController {
         print("test")
         print("test")
         print("123345")
-        
+        print("커밋 푸쉬 동시에")
     }
 
 
