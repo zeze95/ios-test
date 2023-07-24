@@ -9,8 +9,11 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet var firstImgView: UIImageView!
     override func viewDidLoad() {
         super.viewDidLoad()
+        print(firstImgView.isUserInteractionEnabled = true)
+        print(view.isUserInteractionEnabled)
         print("123345")
         print("test")
         print("123345")
@@ -22,6 +25,12 @@ class ViewController: UIViewController {
         print("커밋 푸쉬 동시에")
     }
 
-
+    @IBAction func firstTapGesture(_ sender: UITapGestureRecognizer) {
+        print("처음")
+    }
+    @IBAction func SecondTapGesture(_ sender: UITapGestureRecognizer) {
+        print("둘")
+    }
+    
 }
 

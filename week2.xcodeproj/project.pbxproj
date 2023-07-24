@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4C38AE822A6E180E00392710 /* PlayListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C38AE812A6E180E00392710 /* PlayListViewController.swift */; };
+		4C38AE872A6E40AC00392710 /* TransitionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C38AE862A6E40AC00392710 /* TransitionViewController.swift */; };
+		4C38AE892A6E855500392710 /* keyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4C38AE882A6E855500392710 /* keyboard.storyboard */; };
+		4C38AE8B2A6E89D600392710 /* keyboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C38AE8A2A6E89D600392710 /* keyboardViewController.swift */; };
 		4CEE75922A6E01C200AFE47A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CEE75912A6E01C200AFE47A /* AppDelegate.swift */; };
 		4CEE75942A6E01C200AFE47A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CEE75932A6E01C200AFE47A /* SceneDelegate.swift */; };
 		4CEE75962A6E01C200AFE47A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CEE75952A6E01C200AFE47A /* ViewController.swift */; };
@@ -16,6 +20,11 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4C38AE812A6E180E00392710 /* PlayListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayListViewController.swift; sourceTree = "<group>"; };
+		4C38AE832A6E224A00392710 /* MyPlayground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; name = MyPlayground.playground; path = swiftStudy/MyPlayground.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		4C38AE862A6E40AC00392710 /* TransitionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransitionViewController.swift; sourceTree = "<group>"; };
+		4C38AE882A6E855500392710 /* keyboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = keyboard.storyboard; sourceTree = "<group>"; };
+		4C38AE8A2A6E89D600392710 /* keyboardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = keyboardViewController.swift; sourceTree = "<group>"; };
 		4CEE758E2A6E01C200AFE47A /* week2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = week2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4CEE75912A6E01C200AFE47A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4CEE75932A6E01C200AFE47A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -40,6 +49,7 @@
 		4CEE75852A6E01C200AFE47A = {
 			isa = PBXGroup;
 			children = (
+				4C38AE832A6E224A00392710 /* MyPlayground.playground */,
 				4CEE75902A6E01C200AFE47A /* week2 */,
 				4CEE758F2A6E01C200AFE47A /* Products */,
 			);
@@ -60,6 +70,10 @@
 				4CEE75932A6E01C200AFE47A /* SceneDelegate.swift */,
 				4CEE75952A6E01C200AFE47A /* ViewController.swift */,
 				4CEE75972A6E01C200AFE47A /* Main.storyboard */,
+				4C38AE882A6E855500392710 /* keyboard.storyboard */,
+				4C38AE8A2A6E89D600392710 /* keyboardViewController.swift */,
+				4C38AE862A6E40AC00392710 /* TransitionViewController.swift */,
+				4C38AE812A6E180E00392710 /* PlayListViewController.swift */,
 				4CEE759A2A6E01C300AFE47A /* Assets.xcassets */,
 				4CEE759C2A6E01C300AFE47A /* LaunchScreen.storyboard */,
 				4CEE759F2A6E01C300AFE47A /* Info.plist */,
@@ -128,6 +142,7 @@
 				4CEE759E2A6E01C300AFE47A /* LaunchScreen.storyboard in Resources */,
 				4CEE759B2A6E01C300AFE47A /* Assets.xcassets in Resources */,
 				4CEE75992A6E01C200AFE47A /* Main.storyboard in Resources */,
+				4C38AE892A6E855500392710 /* keyboard.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,9 +153,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4C38AE822A6E180E00392710 /* PlayListViewController.swift in Sources */,
 				4CEE75962A6E01C200AFE47A /* ViewController.swift in Sources */,
 				4CEE75922A6E01C200AFE47A /* AppDelegate.swift in Sources */,
+				4C38AE872A6E40AC00392710 /* TransitionViewController.swift in Sources */,
 				4CEE75942A6E01C200AFE47A /* SceneDelegate.swift in Sources */,
+				4C38AE8B2A6E89D600392710 /* keyboardViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
